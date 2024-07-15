@@ -10,3 +10,7 @@ def read_root():
 @app.get("/main/")
 def read_main_root():
     return {"Test": "Azure is working change again and again"}
+
+@app.get("/test/")
+def read_test_root():
+    return {"Test": "Azure is working perfect"}
