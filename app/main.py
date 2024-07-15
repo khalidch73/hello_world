@@ -9,4 +9,4 @@ def read_root():
 
 @app.get("/main/")
 def read_main_root():
-    return {"Test": "Azure is working"}
+    return {"Test": "Azure is working again"}
